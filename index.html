@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pendaftaran</title>
+    </head>
+
+    <body background="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhIVFRUVFRUXFRcXFxcXFxcXFRcXFxUVFxcdHSggGBolHRUXITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIHA//EACQQAQEBAAECBAcAAAAAAAAAAAABEfBBkSGh4fESMVFhcYHR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOogAIAAACKAgACKAgAKAAGAAACoApEUFEAVUAWKgDSsqDSsxQagyA8kUBAAAIAgAFAAAEBQAARQAAAAAVIoBBAUAFXWVgLq6yoNKyug0iAMAAgAAACKAlAAAoAigAoIigAAAAAAKmgAqAKACgAsqs6oNeIgDIFAQABQEFQADATBQEKUgKigIKgAqAAAAABoAACiFBSIaDQgDQgAKgCKAAAiiACoAACKAAAIAAKAixDncFTQA05zuaUDSEL+ecoAGAAARUUAQBoAAAAAEAAVAFEKCoAAAAUARQEAgAG86AGACC4gKIoAACoAogDYIBgACKAgoCAtBAAAADBcBAAAAEUAxFAQCgqBznkAilAEAUAAAG0AAAFQAEWgFDAAABIoCKACKAgoAhiggAFAATFMBAKAmqABgCC9gGlEABQQ0AAAAAAAMAABQQUwEFAQUwEKAARc/gMi8+ZQRFAQXAEFMAABRDQUEBRAFTBQBNUAEoKIoKhFAQUAQACmgulY5zyaoF53Vn0WUClsDQA8AECAAQBf0IAgAC6gCiAKIoAAAAAgC6IA0IAogBoAJVtQoGqzWgRYgC/EW/dFvOoGImAKagCiIDSABioAoAEAAWUAAAMLOgAEACQAE1QAAAABKT6dfcAKoAIAAgCoAIAD/9k=">
+        <h1>Registrasi</h1>
+        <style>
+            body{
+                color:black
+            }
+        </style>
+
+        <fieldset>
+            <legend>Informasi Pribadi</legend>
+         <div>
+             <label>Nama Depan</label>
+             <div>
+                 <input type="text" name="nama" value="" size="30"/>
+             </div>
+         </div>
+         <div>
+             <label>Nama Belakang</label>
+             <div>
+                 <input type="text" name="nama_belakang" value="" size="30"/>
+             </div>
+         </div>
+         <div>
+            <label>Tanggal lahir</label>
+            <div>
+                <input type="date" name="start_date" id="start_date" value="---">
+            </div>    
+         </div>
+         <div>
+           <label>Jenis kelamin</label>
+            <div>
+             <input type="radio" name="Jk" value="L" />Laki-laki
+             <input type="radio" name="JK" value="P" />Perempuan
+            </div>
+        </fieldset>
+        
+        
+        <fieldset>
+            <legend>Informasi Kontak</legend>
+        <div>
+            <label>Alamat</label>
+            <div>
+               <textarea name="alamat_lengkap" rows="4" cols="30"></textarea>
+            </div>
+        </div>
+        <div>
+            <label>Negara</label>
+            <div>
+                <input type="text" name="Negara"/>
+            </div>
+        </div>
+        <div>
+            <label>Kota</label>
+            <div>
+                <input type="text" name="Kota"/>
+            </div>
+        </div>
+        <div>
+            <label>Provinsi</label>
+            <div>
+                <input type="text" name="Provinsi"/>
+            </div>
+        </div>
+        <div>
+            <label>Telepon</label>  
+            <div>
+                <input type="text" name="Telepon"/>
+            </div>
+        </div>
+        <div>
+            <label>Kode pos</label>
+            <div>
+                <input type="text" name="kode pos"/>
+            </div>
+        </div>
+        <div>
+            <label>Email</label>
+            <div>
+                <input type="text" name="Email"/>
+            </div>
+        </div>
+        <div>
+            <label>Password</label>
+            <div>
+                <input id="password" type="password" name="password" value=""
+                autocomplete="off" placeholder="8-30 characters"/>
+            </div>
+        </div>
+        <div>
+            <label>Buah favorit</label>
+            <div>
+                <select name="buah favorit">
+                    <option value="">---pilih---</option>
+                    <option value="Jeruk"></option>
+                    <option value="Apel"></option>
+                    <option value="Leci"></option>
+                    <option value="Mangga"></option>
+                    <option value="Semongko"></option>
+                </select>
+            </div>
+        </div>
+        </fieldset>
+        <div>
+            <input type="submit"name="submit"value="SUBMIT"/>
+        </div>
+        
+</html>
